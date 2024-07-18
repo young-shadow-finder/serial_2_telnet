@@ -8,6 +8,9 @@ serial_server.py
   --BAND:    baud rate
   --PORT:    net port
 
+email_notify.py
+  it is a tool for send email to target email for private notice
+  email_notify.py --FROM sender@type.com --TO receiver@type.com --SUBJECT “msg subject” --PASSWORD "your password"
 
 I hope these will help you solve some problems and if you have some good suggestions I will glad to hear from you.
 Have a nice day~
