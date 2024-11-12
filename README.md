@@ -1,7 +1,14 @@
 # shadow_young_tools
 
-serial_server.py
+email_notify.py
+  it is a tool for send email to target email for private notice
+  email_notify.py --FROM sender@type.com --TO receiver@type.com --SUBJECT “msg subject” --PASSWORD "your password"
 
+
+log_tools.py
+  offer a log tools, now just with 2 functions,other functions may be added in the future
+
+serial_server.py
   it is a tool for convert serial to telnet
   you can run it in pycharm or use pyinstall to package it
   then use cmd "${exe_file_name} --COM COM6 --BAND 9600 --PORT 9988"
@@ -9,13 +16,8 @@ serial_server.py
   --BAND:    baud rate
   --PORT:    net port
 
-email_notify.py
-
-  it is a tool for send email to target email for private notice
-  email_notify.py --FROM sender@type.com --TO receiver@type.com --SUBJECT “msg subject” --PASSWORD "your password"
 
 slow_running_light.py
-
   this is a simple tools for slow running, set frequence in input box
   the color block will change color refer the param frequence
 
