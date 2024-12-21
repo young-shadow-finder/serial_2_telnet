@@ -39,13 +39,13 @@ sudo waydroid init
 sudo waydroid container start
 sudo systemctl restart waydroid-container.service
 waydroid prop set persist.waydroid.multi_windows true
-# 启动 
+启动 
 waydroid session start
-# 启动 UI
+启动 UI
 waydroid show-full-ui
-# 查看状态
+查看状态
 waydroid status
-# 进入adb shell
+进入adb shell
 waydroid shell
 
 
@@ -60,7 +60,7 @@ sudo python3 main.py certified
 
 安装 libhoudini，支持 arm 架构 apk
 
-# cd waydroid_script
+cd waydroid_script
 sudo python3 main.py install libhoudini
 waydroid app install /path/to/apk
 
